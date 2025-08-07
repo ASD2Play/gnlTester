@@ -1,13 +1,15 @@
 # gnlTester (2019+)
-Testador do projeto get next line da 42 school (com verificação de vazamentos personalizada no mac, usando valgrind no linux  
-Clone este testador em seu repositório get_next_line. (funciona em Linux e Mac, lida com sigsegv em todos os testes e tempo limite na parte obrigatória)  
 
+Tester for the 42 school's get_next_line project (with custom leak checking on Mac, using valgrind on Linux).
+
+Clone this tester into your get_next_line repository.  
+(Works on Linux and Mac, handles SIGSEGV for all tests and timeout for the mandatory part.)
 
 # Commands
-make m = lançar testes obrigatórios  
-make b = lançar testes de bônus  
-make a = lançar testes obrigatórios + testes bônus
+- `make m` = run mandatory tests  
+- `make b` = run bonus tests  
+- `make a` = run mandatory + bonus tests  
 
-make dockerm = lançar testes obrigatórios no contêiner Linux  
-make dockerb = lançar testes de bônus no contêiner Linux  
-make dockera = lançar testes obrigatórios + testes bônus no contêiner Linux  
+- `make dockerm` = run mandatory tests in the Linux container  
+- `make dockerb` = run bonus tests in the Linux container  
+- `make dockera` = run mandatory + bonus tests in the Linux container  
